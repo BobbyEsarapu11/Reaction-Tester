@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+#box{
+    width: 400px;
+    height: 400px;
+    background-color: #f0f0f0;
+    border: 2px solid #605a5a;
+    border-radius: 10px;
+    position: relative;
+}
+body{
+    background-color: aqua;
+    
+}
+h1{
+    color: rgb(11, 14, 14);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 400px) {
+    #box {
+        width: 90%;
+        height: 90%;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    
+}
